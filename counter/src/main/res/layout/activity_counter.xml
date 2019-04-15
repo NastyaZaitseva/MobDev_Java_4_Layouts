@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent">
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+
+        android:background="@color/colorPrimary"
+
+        android:text="Press me gently"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Number of gentle taps:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/main_textview"
+
+        android:text="0"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btn_minus"
+
+            android:layout_width="142dp"
+            android:layout_height="59dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="25dp"
+
+            android:background="@color/colorPrimary"
+            android:text="Subtract hard"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp"
+            />
+
+
+        <Button
+            android:id="@+id/btn_null"
+
+            android:layout_width="142dp"
+            android:layout_height="59dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="25dp"
+
+            android:background="@color/colorPrimary"
+            android:text="Zeroed completely"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="421dp"
+            android:layout_height="wrap_content"
+
+            android:background="@color/colorAccent"
+            android:src="@drawable/robot" />
+
+    </LinearLayout>
+
+</LinearLayout>
