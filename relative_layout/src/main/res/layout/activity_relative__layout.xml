@@ -19,7 +19,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/b1"
-        android:layout_marginTop="45dp"/>
+        android:layout_marginTop="45dp"
+        android:layout_toEndOf="@id/b1" />
 
     <Button
         android:id="@+id/b3"
@@ -27,6 +28,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
         android:layout_toRightOf="@id/b2"
-        android:layout_marginTop="90dp">
+        android:layout_marginTop="90dp"
+        android:layout_toEndOf="@id/b2">
     </Button>
 </RelativeLayout>
